@@ -50,6 +50,44 @@ This solution uses:
 - `/power-bi-report`: PBIX or report visuals
 - `/power-apps-schemas`: Dataverse table schema images
 
+# 🗃️ Power apps Schemas – Animal Shelter CRM
+
+This folder contains the data model (schema) and relationships used in the Animal Shelter CRM solution.
+
+## 📦 Tables
+
+### 🐶 Animal Table
+- Fields: Name, Microchip ID, Type, Age, Medical Info, Shelter Status
+- Relationships:
+  - Lookup to Foster (Foster Claimer)
+  - Lookup to Shelter (Initial Shelter)
+  - Lookup to Adopter
+
+📸 See: `animal-table-schema.png` and `animal-relationships.png`
+
+---
+
+### 🏠 Foster Table
+- Fields: Claimer Name, Location, Join Date
+- Relationships:
+  - Lookup to Animal (Foster Claimer)
+  - Lookup to Shelter (Local Shelter)
+
+📸 See: `foster-table-schema.png` and `foster-relationships.png`
+
+---
+
+### 🏥 Shelter Table
+- Fields: Shelter Name, Manager, Capacity, Location, Types Supported
+- Relationships:
+  - One-to-Many with Animals and Fosters
+
+📸 See: `shelter-table-schema.png` and `shelter-relationships.png`
+
+---
+
+These tables were created in Microsoft Dataverse and used in Power Apps, Power Automate, and Power BI components of the full solution.
+
 ## 📽️ Demo
 
 Video submission (Power Up Challenge): https://youtu.be/wQfPXLpGdgw
