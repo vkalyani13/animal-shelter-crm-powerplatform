@@ -28,7 +28,20 @@ This solution uses:
 
 ## 📸 Screenshots
 
-_Add screenshots of the apps, flows, and dashboard here under `/screenshots` folder_
+### Model-Driven App – Animal Management
+![Animal List](./screenshots/model-animal-list.png)
+![Animal Details](./screenshots/model-animal-detail.png)
+![Shelter Info](./screenshots/model-shelter-tab.png)
+
+### Canvas App – Foster Management
+![Canvas Main](./screenshots/canvas-app-main.png)
+![Canvas Detail](./screenshots/canvas-app-detail.png)
+
+### Power BI Dashboard
+![Power BI Landing](./screenshots/powerbi-landing.png)
+![Power BI Filters](./screenshots/powerbi-filters.png)
+![Power BI Summary](./screenshots/powerbi-summary.png)
+
 
 ## 📂 Folder Structure
 
